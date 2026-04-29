@@ -1,0 +1,113 @@
+.pageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, rgb(224, 234, 252) 0%, #cfdef3 100%);
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.loginCard {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 380px;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.iconBox {
+  background: #f0f7ff;
+  color: #007bff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.loginCard h2 {
+  margin: 0;
+  color: #1a1a1a;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.loginCard p {
+  color: #666;
+  margin: 10px 0 30px;
+  font-size: 0.95rem;
+}
+
+.googleBtnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.userInfo {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 320px;
+}
+
+.profilePicture {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 5px solid #f0f7ff;
+  margin-bottom: 15px;
+}
+
+.logoutButton {
+  margin-top: 20px;
+  background-color: #f1f3f4;
+  color: #3c4043;
+  border: 1px solid #dadce0;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 100%;
+}
+
+.logoutButton:hover {
+  background-color: #e8eaed;
+  border-color: #d2d4d7;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.navLinks {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
