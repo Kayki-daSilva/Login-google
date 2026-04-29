@@ -31,12 +31,5 @@ Ao finalizar o cadastro, é gerado um objeto JSON com os dados do usuário, exib
 
 ## 👥 Integrantes
 - Kayki da Silva de Oliveira  
-- (Nome do colega da dupla aqui)
-
 ---
 
-## ⚙️ Como executar localmente
-
-### 1. Clone o repositório
-```bash
-git clone https://github.com/SEU_USUARIO/NOME_DO_REPO.git
