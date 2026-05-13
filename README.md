@@ -1,3 +1,5 @@
+https://login-google-faetec.vercel.app/
+
 # 🔐 Login com Google + Cadastro (React + TypeScript)
 
 ## 📌 Descrição do Projeto
